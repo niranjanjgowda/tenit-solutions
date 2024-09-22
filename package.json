@@ -1,0 +1,14 @@
+{
+  "name": "tenit-solutions",
+  "version": "1.0.0",
+  "description": "10 IT Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Gowda H C",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

@@ -1,9 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>10 IT Engineers: Building the Future</title>
 
-<body style="margin:0px;padding:0px">
-<div style="width:100vw;height:100vh;background-color:#000;display:flex;align-items:center;justify-content:center;flex-direction:column"> 
-  <h1 style="color:#fff"> TEN IT SOLUTIONS </h1><br/>
-  <a style="color:#fff" href="mailto:niranjanjgowda1@gmail.com&subject=Development"> need help </a>
-</div>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #161B22;">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: #D4FF3E;" href="#">10 IT Engineers: Building the Future</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color: #D4FF3E;" href="mailto:niranjanjgowda1@gmail.com?subject=Development">Need Help?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+
+  <section class="hero-section border-custom mt-1 mb-1" style="background-color: #161B22;">
+    <div class="container-fluid text-secondary p-4">
+      <h1 style="color:#D4FF3E;">Welcome to 10 IT Engineers</h1>
+      <p>We are dedicated to driving innovation in the IT industry by building cutting-edge solutions that shape the future. Whether it's software development, cloud computing, or AI, we bring expertise and passion to deliver exceptional results.</p>
+      <p style="color:#D4FF3E; font-weight: 500; font-size: 24px;text-decoration: underline;">&#8594; On the Horizon &#8592;</p>
+    </div>
+  
+    <div class="container-fluid mt-2">
+      <div class="row p-3">
+        <div class="col-md-8 mb-3">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Components/two.avif" class="d-block w-100" alt="..." style="height: 450px; object-fit: cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="Components/three.avif" class="d-block w-100" alt="..." style="height: 450px; object-fit: cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="Components/four.avif" class="d-block w-100" alt="..." style="height: 450px; object-fit: cover;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="container p-3 " style="background-color: #D4FF3E; color: #161B22;">
+            <h2 style="color: #161B22; text-decoration: underline;">Contact Us</h2>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label" style="font-weight: 500;">Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label" style="font-weight: 500;">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label" style="font-weight: 500;">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark" style="font-weight: 500;">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>      
+  
+  <!-- Footer -->
+   
+  <footer class="text-center py-3 mt-auto m-0" style="background-color: #161B22;">
+    <h4 style="color: #D4FF3E;">
+      Building the Future <span style="color: red; font-size: 24px;">&#9829;</span>
+    </h4>
+  </footer>
+  
 </body>
+</html>
+
+
+
